@@ -1,0 +1,210 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+
+body {
+    background-image: url(/css/zen-garden-white-sand-rocks-water-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    text-align: center;
+    background-image: url(/css/zen-garden-white-sand-rocks-water-.png);
+    background-position: top;
+    background-color: #3e146685;
+    /* background-image: linear-gradient(to bottom, #684e81, #d0a6ca); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav__back nav ul{
+    font-size: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul a {
+    color: azure;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 80px;
+    color: white;
+    text-shadow: 10px 10px 12px grey;
+    margin: 0;
+    padding: 40px;
+    background-color:#ffbaba;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.backgr__main {
+    background-color: #fff2d8;
+    margin: 90px;
+    /* background-image: url(/css/zen-garden-white-sand-rocks-water-.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgr__main2{
+    background-color: #fff2d8;
+    /* background-image: url(/css/backgr2.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgr__main3{
+    background-color: #fff2d8;
+    /* background-image: url(/css/backgr1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    padding: 30px;
+    display: initial;
+    position: inherit;
+
+}
+
+article {
+    margin: 40px;
+    
+}
+
+.art1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-image: url(/css/zen-garden-white-sand-rocks-water-.png); */
+    background-color: #fff2d8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.art1 p {
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+h2 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.art2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-image: url(/css/zen-garden-white-sand-rocks-water-.png); */
+    background-color: #fff2d8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.art2 p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.art3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url(/css/zen-garden-white-sand-rocks-water-.png); */
+    background-color: #fff2d8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; 
+}
+
+.art3 p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#nosotrosInfo {
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    text-shadow: 10px 10px 10px grey;
+    margin: 0;
+    padding: 30px 100px;
+    background-color:#ffbaba;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+
+#profes {
+    text-align: right;
+    font-size: 50px;
+    color: white;
+    text-shadow: 10px 10px 10px grey;
+    margin: 0;
+    padding: 30px 100px;
+    background-color:#ffbaba;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+.artContainer {
+    margin-top: 0;
+}
+
+section {
+    box-shadow: 0px 70px 60px rgba(0, 0, 0, 0.304);
+    position: sticky;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color:#ffd0d0;
+    margin: 0;
+    padding: 50px;
+    background-image: url(/css/futvoly.png);
+}
+
+
+
+
+
+
+
