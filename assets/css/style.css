@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../img/zen-garden-white-sand-rocks-water-.png);
+    background-image: url("../img/zen-garden-white-sand-rocks-water-.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,6 +12,7 @@ body {
 }
 
 nav {
+    background-image: url("../img/zen-garden-white-sand-rocks-water-.png");
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +20,6 @@ nav {
     top: 0;
     background-size: cover;
     text-align: center;
-    background-image: url(../img/zen-garden-white-sand-rocks-water-.png);
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
@@ -38,7 +38,7 @@ nav {
 }
 
 nav ul a {
-    color: azure;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
