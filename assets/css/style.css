@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(./css/zen-garden-white-sand-rocks-water-.png);
+    background-image: url(../img/zen-garden-white-sand-rocks-water-.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ nav {
     top: 0;
     background-size: cover;
     text-align: center;
-    background-image: url(./css/zen-garden-white-sand-rocks-water-.png);
+    background-image: url(../img/zen-garden-white-sand-rocks-water-.png);
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
